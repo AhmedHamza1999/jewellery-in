@@ -1,0 +1,521 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body
+{
+    background-color: #fff;
+    font-family: sans-serif;
+}
+.top-nav-bar
+{
+    background-color: #ececec ;
+    height: 57px ;
+    top: 0 ;
+    /* position: sticky ; */
+    margin-bottom: 20px ;
+    border-bottom: 2px solid  #000 ;
+    z-index: 2 !important;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 40px;
+    border: 1px solid gray!important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+.logo
+{
+    height: 40px;
+    margin: 5px 20px;
+    color: #000 !important;
+}
+.input-group-text
+{
+    background:#fff !important;
+    border: 1px solid gray !important;
+    margin: 8.5px 10px 3px 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+
+}
+.search-box
+{
+    display: inline-flex;
+    width: 60%;
+}
+.fa-search
+{
+    color: gray;
+}
+.menu-bar
+{
+    width: 40%;
+    height: 57px;
+    float: right;
+
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    float: right;
+
+}
+
+.menu-bar ul li 
+{
+        border-left: 1px solid #000;
+        list-style-type: none;
+        padding: 15px 35px;
+        text-align: center;
+        background-color: #ececec;
+        cursor: pointer;
+}
+.menu-bar ul li a 
+{
+    text-decoration: none   ;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray ;
+    padding: auto;
+    
+}
+.fa-shopping-basket 
+{
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 980px)
+{
+    .top-nav-bar
+    {
+        height: 118px;
+        border-bottom: 0;
+    }
+
+    .search-box
+    {
+        width: 100%;
+
+    }
+
+    .menu-bar
+    {
+        width: 100%;
+    }
+
+    .menu-bar ul 
+    {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu-bar ul li
+    {
+        height: 57px;
+        width: 100%;
+    }
+
+    .menu-bar ul li a
+    {
+        font-size: small;
+    }
+}
+
+.navbar-text ul li a , .submenu li a{
+
+    border-radius: 50px;
+    padding: 15px 25px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    font-size: 17px !important;
+
+
+}
+
+.navbar-text ul li a:hover{
+    
+    color: #87CEEB !important;
+    
+}
+
+@media only screen and (max-width: 980px)
+{
+    .navbar-brand img{
+        width: 150px !important;
+    }
+}
+
+.back{
+    color: #fff !important;
+    background-color: 	#00a3c8 !important;
+    
+}
+.submenu{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    
+
+}
+.submenu li {
+    list-style: none;
+   
+}
+.submenu li a {
+    display: inline-block;
+    border-radius: 0 !important;
+    width: 100%;
+    color: rgb(133, 128, 128) !important;
+
+}
+
+.nav-link:hover + .submenu , .submenu:hover{
+    display: block;
+}
+.submenu2{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    
+    
+}
+
+.rig{
+    position: absolute;
+    right: 10px;
+}
+
+/* ________________________marquee start_________________________________ */
+.mar1 marquee {
+    
+    padding: 0px;
+    background-color:#ececec;
+    color: #000;
+    padding: 10px 0 ;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px #978787;
+}
+marquee p{
+    padding: 0;
+    margin: 0;
+}
+
+/* ________________________marquee end_________________________________ */
+
+/* ________________________footer start_________________________________ */
+
+
+.footer{
+    background-color: #ececec;
+    margin-top: 200px;
+    padding: 50px 50px;
+    font-size: small;
+}
+
+.footer .policy ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer .policy ul li a{
+    text-decoration: none;
+    color: #000;
+   
+    
+}
+.footer .policy ul li a:hover{
+    border-bottom: 1px solid black;
+    color: #000;
+}
+
+.footer .social a i{
+    color:gray;
+    font-weight: bold;
+    padding:  10px;
+    
+    border: 2px solid gray;
+    border-radius: 50px;
+    margin: 10px;
+    
+}
+
+.footer .social a i:hover{
+    color: #000;
+}
+
+.copy{
+    font-weight: bold;
+}
+
+
+/* ________________________footer start_________________________________ */
+
+
+
+/* ____________introduction start__________________ */
+
+
+.main-intro{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px 10px;
+    background-color: #ececec;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+h1
+{
+    font-family: oblique;
+    text-shadow: 2px 2px 4px gray;
+    
+}
+.main_title
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.line{
+    width: 90px;
+    height: 5px;
+    background-color: gray;
+    display:inline-block;
+    
+    
+}
+.main_title1{
+    text-align: center;
+    
+    
+}
+
+
+    
+
+
+
+/* ____________introduction end__________________ */
+
+
+/* ------------------------featured product start-------------------------  */
+
+.featured-categories{
+    margin: 50px 0;
+}
+
+.featured-categories img{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+.featured-categories img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* ------------------------featured product end-------------------------  */
+
+
+
+/* ------------------------on sale product start-------------------------  */
+
+.title{
+    background-color: #ececec;
+    color:#000;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.title h2{
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(114, 108, 108);
+}
+.title::after{
+    content: '';
+    border-top: 40px solid #ececec;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+
+.product-top img {
+    width: 100%;
+}
+
+.overly-right{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.overly-right .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.overly-right .btn-secondary{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.product-top:hover .overly-right{
+    opacity: 1;
+    margin-left: 5%;
+
+    transition: 0.5s;
+}
+
+
+.product-bottom .fa{
+    color: #000;
+    font-size: 10px;
+}
+
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5{
+    font-size: 15px;
+}
+
+
+/* ------------------------on sale product end-------------------------  */
+
+/* -----------------------new arrivals start-------------------------  */
+.new-arrivals{
+    margin: 60px 0;
+}
+
+/* ------------------------new arrivals end-------------------------  */
+
+/*-------------------------web-feature start-----------------------------*/
+.web-feature{
+    margin: 60p 0;
+}
+.web-feature img{
+    width: 20%;
+}
+.feature-text{
+    margin-top: 10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+.feature-box{
+padding-top: 20px;
+}
+
+
+/*-------------------------web-feature end-----------------------------*/
+
+
+
+/* ------------------------about us start-------------------------  */
+.gray{
+    background-color: #ececec;
+    padding: 10px 2px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------about us end -------------------------  */
+
+
+/* ------------------------contzct us start -------------------------  */
+
+.submit-buttton
+{
+    padding: 10px 50px;
+    background-color: #ececec;
+    border-radius: 30px;
+}
+
+
+
+/* ------------------------contact us end -------------------------  */
+
+/* ------------------------Female catagory end -------------------------  */
+.catagory{
+    border: 2px solid #000;
+    background-color: #ececec;
+    border-radius: 20px;
+    padding: 10px 2px;
+
+}
+
+.catagory a{
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 20px;
+    color:gray;
+}
+
+.catagory:hover a{
+    color: #000;
+}
+.catagory:hover{
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+    
+}
+
+.ladies-bracelets,.ladies-Earrings,.ladies-necklace,.ladies-rings img{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+.ladies-card-shadow:hover{
+    box-shadow: 2px 2px 2px 2px   grey;
+}
+
+
+
+
+/* ------------------------Female catagory end -------------------------  */
